@@ -1,0 +1,5 @@
+采用的前端技术
+1，javascript,css3,html5
+2,使用框架bootraps3,openlayers3,requireJs
+采用的地图
+1，天地图在线地图

@@ -1,0 +1,239 @@
+
+/*覆盖ol控件的默认样式*/
+.ol-overlaycontainer-stopevent{
+    /* display: none; */
+}
+/* 自定义样式 */
+.zoompanel{
+    position: absolute;
+    top: 350px;
+    /* width: 50px; */
+    z-index: 1000;
+    /*right: 20rem;*/
+    left: 230px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+#zoom-out{
+   /* position: absolute;
+    top: 50px;
+    left: 10px;*/
+    background: #fff;
+}
+#zoom-in{
+   /* position: absolute;
+    top: 50px;
+    left: 50px;*/
+    background: #fff;
+}
+.zoomshow{
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+    opacity: .7;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+}
+.zoombtn {
+    display: block;
+    padding: 8px 13px;
+    margin-bottom: 0;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.mousepoint{
+   /* position: absolute;*/
+ /*   border: 1px solid rgb(51, 51, 51);*/
+    color: #333;
+    top: 10px;
+    width: 200px;
+    right: 13px;
+    padding-left: 20px;
+
+}
+
+.overview{
+   /* position: absolute;*/
+    width: 200px;
+    height: 200px;
+    top: 400px;
+    right: 0px;
+    border: 2px solid #fefdfd;
+}
+.layerShowPanel{
+    /*position: absolute;*/
+    right: 2.1rem;
+    top: 300px;
+}
+
+.btn-controls{
+    background: #fff;
+    display: inline-block;
+    padding: 5px 12px;
+    margin-bottom: 0;
+    opacity: 0.99;
+    border: 1px solid #d5cece;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    /*border: 1px solid transparent;*/
+    border-radius: 4px;
+}
+.btn-controls>button{
+    background: #fff;
+    display: inline-block;
+    padding: 0px 0px;
+    margin-bottom: 0;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+}
+.layershow-loge{
+     color: #8e8b8b;
+     font-size: 15px;
+     font-weight: 400;
+
+}
+.layershow-loge:hover{
+    color: #4952a2;
+}
+.dropdown-menu-layershow {
+    position: absolute;
+    top: -2px;
+    right: 0;
+    left: unset;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+}
+.panel-heading-layer {
+    padding: 3px 15px;
+    border-bottom: 1px solid #dfd0d0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.layer-show-close{
+    position: absolute;
+    right: 7px;
+    top: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #938f8f;
+    cursor:pointer;
+}
+.layer-show-loge{
+    color: #b6b2b2;
+    padding-right: 5px;
+    padding-top: 1px;
+}
+.layer-show-loge:hover{
+    color: #23527c;
+}
+.span-controls{
+     color: #b6b2b2;
+
+ }
+.span-controls:hover{
+    color: #23527c;
+}
+.list-group-item-layer {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-bottom: 1px solid #ddd;
+}
+.list-group-item-checkbox{
+    float: right;
+}
+.panel-layer-body{
+    margin-bottom: 5px;
+}
+.zoom-back{
+    /* position: fixed; */
+    z-index: 2;
+    top: 200px;
+    right: 2.1rem;
+}
+.full-screen{
+    /*position: relative;*/
+    z-index: 2;
+    float:  right;
+    top:150px;
+    right: 2.1rem;
+}
+.measure-panel{
+   /* position: relative;*/
+    right: 2.1rem;
+    top: 250px;
+}
+.measure-list{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.measure-list span{
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.measure-btn{
+    background: #fff;
+    border: 1px solid #d5cece !important;
+}
+#zoom-in{
+	position: absolute;
+    top: 140px;
+    left: 20px;
+}
+#zoom-out{
+	position: absolute;
+    top: 190px;
+    left: 20px;
+}

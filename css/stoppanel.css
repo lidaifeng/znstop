@@ -1,0 +1,29 @@
+/*header{
+	text-align: center;
+}*/
+.header-main{
+	text-align: center;
+    position: fixed;
+    z-index: 1;
+    background: #fff;
+    border-bottom: 1px solid #d1c7c7;
+}
+#content{
+	margin-top: 40px;
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #d1c7c7;
+}
+.btn-custor{
+	margin-top: 20px;
+}
+.footers{
+	/*position: absolute;
+	bottom: 1px;*/
+	padding-top: 10px;
+	text-align: center;
+	padding-bottom: 5px;
+}
+.form-list:first-child{
+	padding-top: 10px;
+}

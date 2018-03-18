@@ -1,0 +1,142 @@
+
+/* ************************************************************鼠标点击弹出popup控件************************************************************************** */
+.click-panel{
+    display:none;
+    background: #fff;
+    border-radius: 4px;
+    /* width: 200px; */
+    margin-right: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    right: 25px;
+}
+.closeimg{
+    float: right;color: #bd1a1a;padding: 1px 1px 0px 0px;cursor: pointer;
+}
+.toggle-close{
+    padding: 3px 8px 0px 4px;
+    margin: 2px 0px 2px 2px;
+}
+
+.click-popup {
+	display:  none;
+	position: absolute;
+	background-color: white;
+	-webkit-filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.2));
+	filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.2));
+	padding: 15px;
+	border-radius: 10px;
+	border: 1px solid #cccccc;
+	bottom: 45px;
+	left: -100px;
+	width: 200px;
+}
+
+.click-popup:after,
+.click-popup:before {
+	top: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.click-popup:after {
+	border-top-color: white;
+	border-width: 10px;
+	left: 48px;
+	margin-left: 40px;
+}
+
+.click-popup:before {
+	border-top-color: #cccccc;
+	border-width: 11px;
+	left: 98px;
+	margin-left: -11px;
+}
+
+.click-popup-closer {
+	text-decoration: none;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	cursor: pointer;
+	color: #f6d20c;
+}
+
+.click-popup-closer:after {
+	/*content: "âœ–";*/
+}
+
+#closepop {
+	width: 13px;
+	margin: 3px -1px 0 0;
+}
+
+#popup-content {
+	font-size: 12px;
+	font-family: "å¾®è½¯é›…é»‘";
+}
+
+#popup-content .markerInfo {
+	font-weight: bold;
+	color: #542323;
+	width: 268px;
+	border-bottom: 1px solid #ecdfdf;
+}
+
+#popup-content .markerText {
+	width: 200px;
+	height: 40px;
+}
+/* ************************************************************条件查询************************************************************************** */
+.condition-panel {
+	 width: 542px;
+	 right: 40px;
+	 top: 10px;
+	 z-index: 1;
+	 position: absolute;
+ }
+.condition-panel-close{
+	float:right;
+	width:23px;
+	height:23px;
+	margin: 4px -4px 0px 0px;
+	cursor: pointer;
+}
+.condition-heading {
+	padding: 4px 15px !important;
+	background: #f5f4f4;
+}
+.condition-body {
+	padding: 4px !important;
+}
+.condition-group {
+	padding-top: 8px !important;
+}
+.condition-select {
+	width: 155px !important;
+}
+.condition-text {
+	width: 167px !important;
+}
+.condition-submit{
+	border-radius: 0px 5px 5px 0px;
+}
+.condition-preview{
+	text-align: center;
+    /* padding-top: 250px; */
+    font-weight: bold;
+    left: 52%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    z-index: 999999;
+}
+.condition-centent {
+	margin: 5px;
+	padding-top: 7px;
+}
